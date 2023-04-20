@@ -22,6 +22,6 @@ KeyboardKit is a Swift and library that helps you create custom keyboard for iOS
   s.macos.deployment_target = '11.0'
   s.tvos.deployment_target = '14.0'
 
-  s.resources = "Sources/KeyboardKit/Resources"
+  s.resource_bundle = { "KeyboardKitResources" => ["Sources/KeyboardKit/Resources/**/*"] }
   s.source_files = "Sources/KeyboardKit/**/*.swift"
 end
